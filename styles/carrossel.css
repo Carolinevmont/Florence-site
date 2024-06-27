@@ -35,9 +35,9 @@
 
 .card {
     background: var(--section);
-    padding: 1em;
+    padding: 1em 1em;
     align-items: center;
-    margin: 1em 1em 1em 1em;
+    margin: 1em;
     border-radius: 5%;
 }
 
@@ -61,7 +61,7 @@
 
 .descrição__imagem {
     border-radius: 10px;
-    width: 30%;
+    width: 25%;
 }
 
 .card__descrição {
@@ -157,6 +157,6 @@
 
     .card {
         width: 90%;
-        margin-left: 1em;
+       
     }
 }

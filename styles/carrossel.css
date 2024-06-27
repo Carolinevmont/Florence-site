@@ -1,0 +1,134 @@
+.carrossel__titulo {
+    color: var(--strong);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 1em 0;
+    margin: 1em;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card__botões {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.botões {
+    display: flex;
+}
+
+.card {
+    background: var(--section);
+    padding: 1em;
+    align-items: center;
+    margin: 1em 1em 1em 1em;
+    border-radius: 5%;
+}
+
+.descrição__titulo {
+    color: var(--vinho);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.descrição__titulo-roupas {
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto {
+    font-size: 16px;
+    color: var(--vinho);
+}
+
+.descrição__imagem {
+    border-radius: 10px;
+    width: 30%;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.botões__item {
+    margin: 0 0.5em;
+}
+
+.botões__ancora {
+    background-color: var(--branco);
+    padding: 1em 2.2em;
+    color: var(--strong);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  .estrelinhas {
+    margin: 1em 5em;
+  }
+
+  .strong {
+    color: var(--strong);
+  }
+
+  
+.descrição__titulo-dois {
+    color: var(--strong);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.botões__ancora-rosa {
+    background-color: var(--strong);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,.swiper-button-next {
+    display: block;
+    top: 35%;
+    }
+
+    .card {
+        width: 60%;
+        margin: 2em auto;
+        
+       
+    }
+}

@@ -21,8 +21,8 @@
           <div class="container">
                     <input type="checkbox" id="menu" class="container__botao">
                     <label for="menu">
-                   <span class="cabeçalho__menu-hamburguer container__imagem"> </span>
-                  </label>
+                    <span class="cabeçalho__menu-hamburguer container__imagem"> </span>
+                   </label>
                     <ul class="lista-menu">
                         <li class="lista-menu__titulo">Categorias</li>
                         <li class="lista-menu__item">
@@ -74,9 +74,17 @@
           </ul>
 
           <div class="container">
-                <a href="#"><img src="imagens/Favoritos-removebg-preview.png" alt="Meus favoritos" class=container__imagem></a>
-                <a href="#"><img src="imagens/Compras-removebg-preview.png" alt="Carrinho de compras" class=container__imagem></a>
-                <a href="#"><img src="imagens/Usuario-removebg-preview.png" alt="Meu perfil" class=container__imagem></a>
+                <a href="#">
+                    <img src="imagens/Favoritos-removebg-preview.png" alt="Meus favoritos" class=container__imagem>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="imagens/Compras-removebg-preview.png" alt="Carrinho de compras" class=container__imagem>
+                    <p class="container__texto">Meu carrinho</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="imagens/Usuario-removebg-preview.png" alt="Meu perfil" class=container__imagem>
+                    <p class="container__texto">Meu perfil</p>
+                </a>
             </div>
       </header>
       <section class="banner">
@@ -87,6 +95,7 @@
       <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
+         <div class="carrossel__container">
         <div class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -127,6 +136,7 @@
                     <a href="#" class="botões__ancora">Quero conferir</a>
                 </div>
             </div>
+        </div>
     </section>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
@@ -144,6 +154,7 @@
 <section class="carrossel">
     <h2 class="carrossel__titulo">Os mais vendidos</h2>
     <!-- Slider main container -->
+    <div class="carrossel__container">
     <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -184,6 +195,7 @@
                 <a href="#" class="botões__ancora-rosa">Quero o meu</a>
             </div>
         </div>
+    </div>
 </section>
 
 <section class="tópicos">
